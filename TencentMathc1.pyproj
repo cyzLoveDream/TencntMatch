@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01881118-3e4e-4350-94b1-8f57409b3418}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>
+    </StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="baseline\baseline_v1.py" />
+    <Compile Include="baseline\baseline_v2.py" />
+    <Compile Include="demo\1.py" />
+    <Compile Include="demo\2728temp.py" />
+    <Compile Include="demo\csv2libsvm.py" />
+    <Compile Include="demo\fm.py" />
+    <Compile Include="demo\getfeature.py" />
+    <Compile Include="demo\LR.py" />
+    <Compile Include="demo\merge.py" />
+    <Compile Include="demo\predict.py" />
+    <Compile Include="demo\selectfeature.py" />
+    <Compile Include="demo\study.py" />
+    <Compile Include="demo\temp2.py" />
+    <Compile Include="demo\tiaocan.py" />
+    <Compile Include="demo\userfeature.py" />
+    <Compile Include="demo\xgbcv.py" />
+    <Compile Include="finalcode\3a-esemble.py" />
+    <Compile Include="finalcode\base_cnt_fea.py" />
+    <Compile Include="finalcode\fea_sel.py" />
+    <Compile Include="finalcode\ffm.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="finalcode\getDupTimeFeautre.py" />
+    <Compile Include="finalcode\get_num_rank_fea.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="finalcode\HistoryApCate.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="finalcode\mergedata.py" />
+    <Compile Include="finalcode\xgbcv.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\add_dummy_label.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\converter\6.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\converter\common.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\converter\group6.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\run\6.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\cat_id_click.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\cat_submit.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\common.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\count_feat.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\join_data.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\parallelizer.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\bag\util\parallel_do.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\converter\2.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\converter\common.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\run.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\run\app.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\run\site.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\util\common.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\util\gen_data.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\util\merge_prediction.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\util\parallelizer.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\util\pickle_prediction.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\base\util\unpickle_prediction.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\app.id\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\app.ip\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\app\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\app_category-0f2161f8\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\app_id-92f5800b\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\banner_pos-1\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\device_conn_type-3\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site.cold_feature\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site.exd1d2\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site.id\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site.ip\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site_category-3e814130\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site_category-f028772b\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site_domain-7e091613\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\model\site_id-e151e245\cvt.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\calc_loss.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\calc_loss2.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\common.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\ensemble.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\gendata.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\merge_prd.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\mkprd.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\parallelizer.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\run.template.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\runall.py" />
+    <Compile Include="finnal\kaggle-avazu-rank1\ensemble\util\subset.py" />
+    <Compile Include="handledata\1a-his-count.py" />
+    <Compile Include="handledata\1b-feature-cnt.py" />
+    <Compile Include="handledata\anlysitcfeature.py" />
+    <Compile Include="handledata\chouyang.py" />
+    <Compile Include="handledata\click_history.py" />
+    <Compile Include="handledata\fea_interaction.py" />
+    <Compile Include="handledata\get_fea_user_ins_app.py" />
+    <Compile Include="handledata\hour_day.py" />
+    <Compile Include="handledata\rank_trick.py" />
+    <Compile Include="handledata\rank_trick_click.py" />
+    <Compile Include="handledata\tfidf.py" />
+    <Compile Include="handledata\time_diff_next.py" />
+    <Compile Include="handledata\utils.py" />
+    <Compile Include="handledata\_1a_encode_cnt_features.py" />
+    <Compile Include="handledata\_1g_encode_num.py" />
+    <Compile Include="init\1.py" />
+    <Compile Include="init\Analysis.py" />
+    <Compile Include="init\appPlatform.py" />
+    <Compile Include="init\chuangjianlie.py" />
+    <Compile Include="init\connectionType.py" />
+    <Compile Include="init\education.py" />
+    <Compile Include="init\evaluation.py" />
+    <Compile Include="init\fast_solution.py" />
+    <Compile Include="init\getResultFile.py" />
+    <Compile Include="init\gridcv.py" />
+    <Compile Include="init\handleAPP.py" />
+    <Compile Include="init\handledata.py" />
+    <Compile Include="init\handledata1.py" />
+    <Compile Include="init\haveBaby.py" />
+    <Compile Include="init\localFeatureTest.py" />
+    <Compile Include="init\marriageStatus.py" />
+    <Compile Include="init\MerageFile.py" />
+    <Compile Include="init\positionType.py" />
+    <Compile Include="init\siteset.py" />
+    <Compile Include="init\telecomsOperator.py" />
+    <Compile Include="init\temp.py" />
+    <Compile Include="init\testfeature.py" />
+    <Compile Include="test\test.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="finnal\kaggle-avazu-rank1\license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="baseline" />
+    <Folder Include="demo" />
+    <Folder Include="finalcode" />
+    <Folder Include="finnal\" />
+    <Folder Include="finnal\kaggle-avazu-rank1" />
+    <Folder Include="finnal\kaggle-avazu-rank1\bag\" />
+    <Folder Include="finnal\kaggle-avazu-rank1\bag\converter" />
+    <Folder Include="finnal\kaggle-avazu-rank1\bag\run" />
+    <Folder Include="finnal\kaggle-avazu-rank1\bag\util" />
+    <Folder Include="finnal\kaggle-avazu-rank1\base" />
+    <Folder Include="finnal\kaggle-avazu-rank1\base\converter" />
+    <Folder Include="finnal\kaggle-avazu-rank1\base\run" />
+    <Folder Include="finnal\kaggle-avazu-rank1\base\util" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\app" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\app.id" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\app.ip" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\app_category-0f2161f8" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\app_id-92f5800b" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\banner_pos-1" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\device_conn_type-3" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site.cold_feature" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site.exd1d2" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site.id" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site.ip" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site_category-3e814130" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site_category-f028772b" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site_domain-7e091613" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\model\site_id-e151e245" />
+    <Folder Include="finnal\kaggle-avazu-rank1\ensemble\util" />
+    <Folder Include="handledata" />
+    <Folder Include="init" />
+    <Folder Include="test\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
