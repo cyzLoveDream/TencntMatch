@@ -38,3 +38,4 @@ mapper = DataFrameMapper([
         ],None)
 testData = mapper.fit_transform(allData)
 #print(testData)
+#print("我是来测试的")
